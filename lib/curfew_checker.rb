@@ -1,14 +1,20 @@
 def simple_curfew_checker(t)
   if t<=11
     puts "You're not in trouble."
-elsif t>=11
+  if t>=11
     puts "You're in trouble! Better get home quick!"
   end
 end
 simple_curfew_checker(12)
+
 def curfew_checker(t)
-  # code goes here
+  if t<=11
+    puts "You're not in trouble."
+  else t>=11
+    puts "You're in trouble! Better get home quick!"
+  end
 end
+curfew_checker (9)
 
 def complex_curfew_checker(t)
   # code goes here
