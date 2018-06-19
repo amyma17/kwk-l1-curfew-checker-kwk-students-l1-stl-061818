@@ -40,7 +40,7 @@ end
 deluxe_curfew_checker(9)
 
  def platinum_curfew_checker(t,c=11)
-   r=11-#{t}
+   r=11-t
  if t<11 
     puts  "keep having fun, you have 11-#{r} hours left"
   elsif t==11
