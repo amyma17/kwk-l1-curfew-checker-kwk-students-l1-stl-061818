@@ -1,4 +1,4 @@
-def simple_curfew_checker(time= 11:00)
+def simple_curfew_checker(time)
   if 
 end
 
