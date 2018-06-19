@@ -1,10 +1,8 @@
 def simple_curfew_checker(t)
-  if t<11
-    puts "You'r early"
-elsif t=11
-    puts "GO"
-else t>11 
-    puts "You are laaaaate"
+  if t<=11
+    puts "You're not in trouble."
+elsif t>=11
+    puts "You're in trouble! Better get home quick!"
 end 
 def curfew_checker(t)
   # code goes here
