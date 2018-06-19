@@ -16,14 +16,14 @@ def curfew_checker(t)
 end
 curfew_checker (9)
 
-def complex_curfew_checker(t)
+#def complex_curfew_checker(t)
   # code goes here
-end
+# end
 
-def deluxe_curfew_checker(t)
-  # code goes here
-end
+# def deluxe_curfew_checker(t)
+#   # code goes here
+# end
 
-def platinum_curfew_checker(current_time, curfew_time)
-  # code goes here
-end
+# def platinum_curfew_checker(current_time, curfew_time)
+#   # code goes here
+# end
