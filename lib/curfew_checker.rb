@@ -39,6 +39,14 @@ def deluxe_curfew_checker(t)
 end
 deluxe_curfew_checker(9)
 
- def platinum_curfew_checker(current_time, curfew_time)
-
+ def platinum_curfew_checker(t,c=11)
+   r=11-#{t}
+ if t<11 
+    puts  "keep having fun, you have 11-#{r} hours left"
+  elsif t==11
+    puts "Go home"
+  else t>11
+    puts "You're in trouble! Better get home quick!"
+  end
  end
+platinum_curfew_checker (9,c=11)
