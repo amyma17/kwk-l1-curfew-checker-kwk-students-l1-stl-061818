@@ -17,11 +17,11 @@ end
 curfew_checker(9)
 
 def complex_curfew_checker(t)
-  if t<=11
+  if t<11
     puts "You're not in trouble."
   elsif t==11
     puts "Go home"
-  else t>=11
+  else t>11
     puts "You're in trouble! Better get home quick!"
   end
  end
