@@ -29,8 +29,8 @@ def complex_curfew_checker(t)
 
 def deluxe_curfew_checker(t)
   
-  if t<11 "keep having fun, you have 11-#{t} hours left"
-    puts "You're not in trouble."
+  if t<11 
+    puts  "keep having fun, you have 11-#{t} hours left"
   elsif t==11
     puts "Go home"
   else t>11
