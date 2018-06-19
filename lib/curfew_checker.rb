@@ -3,8 +3,9 @@ def simple_curfew_checker(t)
     puts "You're not in trouble."
 elsif t>=11
     puts "You're in trouble! Better get home quick!"
+  end
 end
-end
+simple_curfew_checker(12)
 def curfew_checker(t)
   # code goes here
 end
