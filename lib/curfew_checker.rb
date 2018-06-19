@@ -1,16 +1,17 @@
-def simple_curfew_checker(time)
-  if 
+def simple_curfew_checker(t)
+  if t<11
+    puts "You'r early"
 end
 
-def curfew_checker(time)
+def curfew_checker(t)
   # code goes here
 end
 
-def complex_curfew_checker(time)
+def complex_curfew_checker(t)
   # code goes here
 end
 
-def deluxe_curfew_checker(time)
+def deluxe_curfew_checker(t)
   # code goes here
 end
 
