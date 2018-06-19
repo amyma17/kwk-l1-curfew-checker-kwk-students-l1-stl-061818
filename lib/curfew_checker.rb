@@ -14,6 +14,7 @@ def curfew_checker(t)
     puts "You're in trouble! Better get home quick!"
   end
 end
+
 curfew_checker (9)
 
 def complex_curfew_checker(t)
