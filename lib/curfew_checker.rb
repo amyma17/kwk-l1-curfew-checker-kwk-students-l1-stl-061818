@@ -49,4 +49,4 @@ deluxe_curfew_checker(9)
     puts "You're in trouble! Better get home quick!"
   end
  end
-platinum_curfew_checker (9)
+platinum_curfew_checker(9)
